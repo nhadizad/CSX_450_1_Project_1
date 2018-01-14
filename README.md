@@ -77,7 +77,7 @@ Next we need to sign-up and setup an AWS account, in order to create a virtual m
 ## Docker ##
 We are now ready to install Docker on the virtual AWS server. We use Bash on the local machine to connect via SSH to the newly created instance for setup and configuration.
 
-### I - Setup and configure Docker ###
+### Setup and configure Docker ###
 1) Run Bash on the local machine
 2) At the command line type **`ssh ubuntu@xxx.xxx.xxx.xxx`** where xxx.xxx.xxx.xxx is the IP address obtained in step 13 above (Connect to your AWS instance)
 3) Type **`curl -sSL https://get.docker.com | sh`** (Download and install docker by piping to shell - not the best security practice!)
