@@ -32,7 +32,7 @@ The first step is to utilize a local machine so that we can securely connect to 
 
 
 ## Setting up the AWS virtual server ##
-Next we need to sign-up and setup an AWS account, in order to create a virtual machine that will host the application and data throughout the project.
+Next we need to sign-up and setup an AWS account, in order to create a virtual machine that will host the application and data throughout the project. Select region closest to your geographic location.
 
 ### I - Importing SSH Key Pair for connecting to the server from the local machine ###
 1) Logon to your AWS account
@@ -56,7 +56,6 @@ Next we need to sign-up and setup an AWS account, in order to create a virtual m
 	* Custom (Port 2376)
 	* Custom (Port 27016)
 7) Click on Create
-8) Select region closest to your geographic location
 
 ### III - Create an Instance using the SSH key and Security Group created ###
 1) Logon to your AWS account
